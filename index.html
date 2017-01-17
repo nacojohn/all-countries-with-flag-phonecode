@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="AllCountries">
+<head>
+	<title>List all Countries with Country Code and Flag</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<form class="form-inline" ng-controller="LoadCountryData as countryData">
+  <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-addon"><img ng-src="flags/{{countryData.countryCode}}.png"></div>
+      	<select class="form-control" id="" ng-model="countryData.countryCode" ng-change="countryData.fetchPhoneCode(countryData.countryCode)">
+		  <option ng-repeat="country in countryData.countries" value="{{country['Top Level Domain']}}">{{country['Country Name']}}</option> 
+		</select>
+    </div>
+  </div>
+  <p></p>
+  <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-addon">{{countryData.countryPhoneCode}}</div>
+      	<input type="phone" name="" class="form-control">
+    </div>
+  </div>
+</form>
+
+
+
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.min.js"></script>
+</body>
+</html>
