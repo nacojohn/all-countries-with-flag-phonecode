@@ -18,3 +18,4 @@ http://test.rad5.com.ng/all_countries/
 
 #RESOURCES
 Data from https://countrycode.org/
+Flags from https://github.com/yusufshakeel/mysql-country-with-flag
