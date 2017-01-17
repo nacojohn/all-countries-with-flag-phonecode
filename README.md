@@ -13,5 +13,8 @@ process_request.php - Processing page to return data in JSON format  <br>
 README.md - DOCUMENTATION  <br>
 tbl_country.sql - MYSQL Database for all Countries
 
+#DEMO
+http://test.rad5.com.ng/all_countries/
+
 #RESOURCES
 Data from https://countrycode.org/
