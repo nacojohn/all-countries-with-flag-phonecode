@@ -17,5 +17,5 @@ tbl_country.sql - MYSQL Database for all Countries
 http://test.rad5.com.ng/all_countries/
 
 #RESOURCES
-Data from https://countrycode.org/
+Data from https://countrycode.org/ <br>
 Flags from https://github.com/yusufshakeel/mysql-country-with-flag
